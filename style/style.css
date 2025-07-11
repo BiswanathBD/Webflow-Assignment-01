@@ -30,9 +30,9 @@ body{
     border: none;
 }
 button:hover{
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px #4E47FF80;
-    border: 2px solid #dcdcff;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px #00000080;
+    transition: background-color 1s ease, transform 1s ease;
 }
 
 /* header banner section */
@@ -193,10 +193,9 @@ margin: 137px auto;
 .form-heading{
     font-size: 97px;
 }
-.form label{
+.form-label{
     font-size: 18px;
     width: 500;
-    margin-bottom: 10px;
 }
 .form input, textarea{
     display: block;
@@ -208,6 +207,7 @@ margin: 137px auto;
     border: 1px solid #D6DDED;
     border-radius: 10px;
     margin-bottom: 19px;
+    margin-top: 10px;
 }
 .form-button{
     color: #ffff;
@@ -244,7 +244,9 @@ footer a{
 .footer-nav:hover{
     color: #ffff;
     background-color: #00ADFE80;
-    border-radius: 15px;
+    border-radius: 25px;
     border: none;
     padding: 10px 20px;
+    transition: background-color 1s ease, transform 1s ease;
+
 }
